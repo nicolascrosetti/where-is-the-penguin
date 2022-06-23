@@ -1,0 +1,24 @@
+:root{
+    --targetHeight: 25px;
+    --targetWidth: 25px;
+}
+#frame{
+    width: 1000px;
+    height: 550px;
+    position: fixed;
+}
+
+#frame img{
+    width: 100%;
+    height: 100%;
+}
+
+#target{
+    position: fixed;
+    width: var(--targetWidth);
+    height: var(--targetHeight);
+    border: 2px solid red;
+}
+.container{
+   text-align: center;
+}
