@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 :root{
     --targetHeight: 25px;
     --targetWidth: 25px;
 }
+body{
+    background-color: black;
+    color: #fbfbfb;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1,h2,h3{
+    margin: 0;
+}
+h1{
+    margin-bottom: 5px;
+}
 #frame{
-    width: 1000px;
-    height: 550px;
+    width: 1200px;
+    height: 575px;
     position: fixed;
+    margin: 10px auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
 }
 
 #frame img{
@@ -13,11 +28,26 @@
     height: 100%;
 }
 
+#FdnR9DbX8Pz1AYO3s8Vo{
+    left: 743.5px;
+    top: 309.5px;
+}
+#p8LncYII0OecwAFcutvt{
+    left: 713.5px;
+    top: 245.5px;
+}
+
 #target{
     position: fixed;
     width: var(--targetWidth);
     height: var(--targetHeight);
-    border: 2px solid red;
+    border: 5px solid red;
+}
+.success-target{
+    position: fixed;
+    width: var(--targetWidth);
+    height: var(--targetHeight);
+    border: 5px solid green;
 }
 .container{
    text-align: center;
